@@ -1,0 +1,52 @@
+.second-profile{
+background-color: white;
+margin: 10px;
+border-radius: 20px;
+}
+.cards-list{
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  border-radius: 1px solid #777;
+
+}
+.cards{
+  background-color: lime;
+  padding: 20px;
+  border-radius: 1px solid #777;
+ 
+  border: 1px solid #777;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.c1{
+  background-color: rgb(165, 98, 232);
+  padding: 6px;
+  border-radius: 6px;
+}
+.c2{
+  background-color: rgb(2, 176, 77);
+  padding: 6px;
+   border-radius: 6px;
+}
+.c3{
+  background-color: rgb(234, 111, 29);
+  padding: 6px;
+   border-radius: 6px;
+}
+.c4{
+  background-color: rgb(153, 14, 239);
+  padding: 6px;
+   border-radius: 6px;
+}
+.c5{
+  background-color: rgb(241, 55, 13);
+  padding: 6px;
+   border-radius: 6px;
+}
+.cards p{
+  font-size: 12px;
+  margin-top: 10px;
+}

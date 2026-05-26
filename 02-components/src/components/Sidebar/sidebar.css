@@ -1,0 +1,63 @@
+.sidebar{
+  background-color: white;
+  width: 200px;
+  min-width: 200px;
+  padding: 10px 12px 14px 26px;
+  border: 1px solid #777;
+  border-radius: 10px;
+  font-size: 8pt;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.side-menu{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 10px;
+}
+.Upgrade-pass{
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+  padding: 30px 10px 10px 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid #777;
+}
+.side-menu a{
+  text-decoration: none;
+  padding: 10px 10px 10px 12px;
+  justify-content: center;
+  color: #777;
+  font-weight: 500;
+}
+.pass button{
+  padding: 6px 4px 4px 4px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 1px solid #777;
+  background-color: lime;
+  font-weight: 800;
+}
+.pass{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+.s {
+  margin-left: 6px;
+}
+.side-menu h1:hover{
+  background-color: blue;
+ 
+  border-radius: 29px;
+ padding-left: 10px;
+}
+.pass button:hover{
+background-color: rgb(110, 110, 204);
+transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+cursor: pointer;
+transform: scale(0.9);
+}
