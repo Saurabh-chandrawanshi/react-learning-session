@@ -1,5 +1,8 @@
 import React from 'react'
 import './productCard.css'
+import { RiShoppingCart2Fill } from "react-icons/ri";
+import { Heart } from 'lucide-react';
+import { Handbag } from 'lucide-react';
 const productCard = () => {
   return (
     <div>
