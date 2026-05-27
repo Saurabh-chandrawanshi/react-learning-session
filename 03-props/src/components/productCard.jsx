@@ -1,11 +1,9 @@
 import React from 'react'
-import { RiShoppingCart2Fill } from "react-icons/ri";
-import { Heart } from 'lucide-react';
-import { Handbag } from 'lucide-react';
-const App = () => {
+import './productCard.css'
+const productCard = () => {
   return (
     <div>
-      <div className="main-container">
+       <div className="main-container">
         {/* nav bar start */}
         <div className="navbar">
           <nav className='logo-web'>
@@ -26,9 +24,8 @@ const App = () => {
           </div>
         </div>
       </div>
-      
     </div>
   )
 }
 
-export default App
+export default productCard

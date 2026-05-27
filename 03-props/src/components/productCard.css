@@ -1,0 +1,70 @@
+/* navbar */
+.navbar{
+  width:100%;
+  /* margin:auto; */
+  /* margin-top:20px; */
+  background:#071028;
+  padding:20px 40px;
+  border-radius:25px 25px 0 0;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+/* logo-web */
+.logo-web{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+}
+.logo,  .handbag{
+  color:#8B5CF6;
+  font-size:38px;
+  font-weight:600;
+
+}
+.store{
+    color: white;
+}
+/* nav-links center part */
+.nav-links{
+    display:flex ;
+  gap:50px;
+  list-style:none;
+
+}
+.nav-links li,a{
+  color:white;
+  cursor:pointer;
+  transition:.3s;
+  text-decoration: none;
+}
+.nav-links li,a:hover{
+  color:#8B5CF6;
+}
+
+.nav-links li,a{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.nav-btn{
+  display: flex;
+  gap: 40px;
+}
+.wishlist{
+  align-items: center;
+  padding: 8px 8px;
+  border-radius: 8px ;
+  display: flex;
+  gap: 8px;
+}
+.wishlist span{
+  font-size: 16px;
+}
+.add-to-card{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(136, 9, 247);
+}
